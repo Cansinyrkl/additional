@@ -13,7 +13,6 @@ const App = () => {
   };
   return (
     <div className="App">
-      <h2>add numbers</h2>
       <input
         onChange={(e) => handleaddNumber(e)}
         value={count ? count : ""}
